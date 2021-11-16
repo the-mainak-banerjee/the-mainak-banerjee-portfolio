@@ -1,22 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-/* Add styles via selector */
-
-h1{
-    color:blue
-}
-
-h2{
-    color:green
-}
-
-
-/* Add styles via id */
-#main-heading{
-    color:#ff0810
-}
-
-/* Add Styles via class */
-
-.paragraph{
-    color: rgb(105, 208, 255);
+body{
+    font-family: 'Lato', sans-serif;
 }
