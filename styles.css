@@ -4,6 +4,8 @@
     --primary-color: #10B981;
     --hover-color: #43e2a2;
     --dark-gray: #6B7280;
+    --off-white: #E5E7EB;
+    --form-background: #3B82F6;
 }
 
 body{
@@ -108,6 +110,7 @@ body{
 
 .hero{
     padding: 2rem;
+    margin: auto;
 }
 
 .hero .hero-image{
@@ -119,8 +122,67 @@ body{
 .hero .hero-header{
     color: var(--dark-gray);
     font-size: 2rem;
+    max-width: 650px;
+    display: block;
+    margin: auto;
+    padding-top: 1rem;
 }
 
 .hero .hero-header .heading-inverted{
     color: var(--primary-color);
+}
+
+/* Section */
+
+.section{
+    padding: 2rem;
+}
+
+.section h1{
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--off-white);
+    border-radius: 5px;
+}
+
+/* form  */
+
+.form{
+    background-color: var(--form-background);
+    padding: 1rem 1.5rem;
+    color: white;
+    border-radius: 10px;
+}
+
+.form .form-label{
+    font-size: large;
+}
+
+
+
+
+
+/* footer */
+
+.footer{
+    margin: auto;
+    background-color: var(--primary-color);
+    padding: 2rem;
+    color: white;
+    border-bottom-right-radius: 10px ;
+}
+
+.footer .footer-heading{
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer .link:hover{
+    text-decoration: underline;
 }

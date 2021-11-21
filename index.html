@@ -100,26 +100,32 @@
     <h2>@section</h2>
 
     <h3>@Normal section</h3>
+
+    <section class="section container container-center">
     <h1>Heading in this section</h1>
     <p>text defining this section and many more things</p>
-    <a href="/">primary button</a>
+    <a class="link link-primary" href="/">primary button</a>
+    </section>
 
     <h3>@Off white section</h3>
+
+    <section class="section ow container container-center">
     <h1>Heading in this section</h1>
     <p>text defining this section and many more things</p>
-    <a href="/">primary button</a>
+    <a class="link link-primary" href="/">primary button</a>
+    </section>
 
     <hr>
 
     <h2>@form</h2>
 
-    <form>
-        <label for="fname">This is a text field:</label><br>
+    <form class="form container container-center">
+        <label class="form-label" for="fname">What is your Name?</label><br>
         <input type="text" id="fname" name="fname">
-        <p>What is your favourite car?</p>
-        <input type="radio" id="audi" name="fav_language"
+        <p class="form-label">What is your favourite car?</p>
+        <input type="radio" id="audi" name="fav_language">
         <label for="audi">AUDI</label><br>
-        <input type="radio" id="bmw" name="fav_language"
+        <input type="radio" id="bmw" name="fav_language">
         <label for="bmw">BMW</label><br>
     </form>
 
@@ -127,13 +133,20 @@
 
     <h2>@footer</h2>
     
-    <div>Some text inside footer</div>
-    <ul>
-        <li>list item one</li>
-        <li>list item two</li>
-        <li>list otem three</li>
-    </ul>
+    <footer class="footer">
+        <div class="footer-heading">Some text inside footer</div>
+        <ul class="list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="/">list item one</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">list item two</a>
+            </li>
+            <li class="list-item-inline">list otem three</li>
+        </ul>
+    </footer>
+    
 
-    <div style="height: 10ch;"
+    <div style="height: 10ch;"></div>
 </body>
 </html>
