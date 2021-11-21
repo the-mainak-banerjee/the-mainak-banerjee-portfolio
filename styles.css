@@ -204,3 +204,8 @@ body{
 .footer ul{
     padding-inline-start: 0px;
 }
+
+.footer .footer-links-icon{
+    width: 20px;
+    padding: 0rem, 2rem;
+}
