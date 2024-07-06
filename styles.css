@@ -1,217 +1,214 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
-:root{
-    --primary-color: #10B981;
-    --hover-color: #43e2a2;
-    --dark-gray: #6B7280;
-    --off-white: #E5E7EB;
-    --form-background: #3B82F6;
-    --bold-text: #1E40AF;
+:root {
+  --primary-color: #10b981;
+  --hover-color: #43e2a2;
+  --dark-gray: #6b7280;
+  --off-white: #e5e7eb;
+  --form-background: #3b82f6;
+  --bold-text: #1e40af;
 }
 
-body{
-    font-family: 'Lato', sans-serif;
-    margin: 0px auto;
-    padding-inline-start: 0px;
-    max-width: 85%;
-    width: 100%;
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0px auto;
+  padding-inline-start: 0px;
+  max-width: 85%;
+  width: 100%;
 }
 
 /* Container */
 
 .container {
-    padding: 0rem 1rem;
+  padding: 0rem 1rem;
 }
 
-.container-center{
-    max-width: 900px;
-    width: 100%;
-    margin: auto;
+.container-center {
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
 }
 
 /* links */
 
-.link{
-    box-sizing: border-box;
-    text-decoration: none;
-    padding: 0.5rem 0.5rem;
-    color: white
+.link {
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0.5rem 0.5rem;
+  color: white;
 }
 
-.link:hover{
-    text-decoration: underline;
+.link:hover {
+  text-decoration: underline;
 }
 
-
-.link-primary{
-    background-color: var(--primary-color) ;
-    color: white;
-    border-radius: 0.5rem;
-    padding: .7rem;
-    text-align: center;
+.link-primary {
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 0.5rem;
+  padding: 0.7rem;
+  text-align: center;
 }
 
-.link-primary:hover{
-    text-decoration: underline;
-    background-color: var(--hover-color);
-    color: black;
+.link-primary:hover {
+  text-decoration: underline;
+  background-color: var(--hover-color);
+  color: black;
 }
 
-.link-secondary{
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color);
-    border-radius: 0.5rem;
-    padding: .7rem;
-    text-align: center;
+.link-secondary {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 0.5rem;
+  padding: 0.7rem;
+  text-align: center;
 }
 
-.link-secondary:hover{
-    color: black;
-    border: 1px solid black;
-    text-decoration: underline;
+.link-secondary:hover {
+  color: black;
+  border: 1px solid black;
+  text-decoration: underline;
 }
 
 /* lists */
 
-.list-non-bullet{
-    list-style: none;
-    padding-inline-start: 0px;
+.list-non-bullet {
+  list-style: none;
+  padding-inline-start: 0px;
 }
 
-.list-item-inline{
-    display: inline;
-    padding: 0rem 0.5rem;
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
 }
 
 /* navigation */
 
-.navigation{
-    background-color: var(--primary-color);
-    padding:1rem;
-    color: white;
-    border-bottom-left-radius: 40px;
+.navigation {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  color: white;
+  border-bottom-left-radius: 40px;
 }
 
- .nav-brand{
-    font-weight: bold;
-    font-size: 1.1rem;
+.nav-brand {
+  font-weight: bold;
+  font-size: 1.1rem;
 }
 
-.nav-brand .link:hover{
-    text-decoration: none;
+.nav-brand .link:hover {
+  text-decoration: none;
 }
 
-.nav-pills{
-    text-align: right;
+.nav-pills {
+  text-align: right;
 }
 
-
-.navigation .link:hover{
-    text-decoration: underline;
+.navigation .link:hover {
+  text-decoration: underline;
 }
 
-.navigation .active{
-    font-weight: bold;
-    border-radius: 5px;
-    border: 0.5px solid white;
+.navigation .active {
+  font-weight: bold;
+  border-radius: 5px;
+  border: 0.5px solid white;
 }
 
 /* Header */
 
-.hero{
-    padding: 2rem;
+.hero {
+  padding: 2rem;
 }
 
-.hero .hero-image{
-    max-width: 300px;
-    display: block;
-    margin: auto;
+.hero .hero-image {
+  max-width: 300px;
+  display: block;
+  margin: auto;
 }
 
-.hero-header{
-    color: var(--dark-gray);
-    font-size: 2rem;
-    text-align: center;
-    padding-top: 1rem;
+.hero-header {
+  color: var(--dark-gray);
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 1rem;
 }
 
-.heading-inverted{
-    color: var(--primary-color);
+.heading-inverted {
+  color: var(--primary-color);
 }
 
 /* Section */
 
-.section{
-    padding: 2rem;
-    margin: 2rem 0;
-    border-radius: 1rem;
-    text-align: center;
+.section {
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 1rem;
+  text-align: center;
 }
 
-.section-desc{
-    margin-bottom: 2rem;
+.section-desc {
+  margin-bottom: 2rem;
 }
 
-h2{
-    text-align: center;
+h2 {
+  text-align: center;
 }
 
-.ow{
-    background-color: var(--off-white);
-    border-radius: 5px;
+.ow {
+  background-color: var(--off-white);
+  border-radius: 5px;
 }
 
-.link{
-    margin: auto;
+.link {
+  margin: auto;
 }
-
-
 
 /* footer */
 
-.footer{
-    margin: auto;
-    margin-top: 2rem;
-    background-color: var(--primary-color);
-    padding: 2rem;
-    color: white;
-    border-top-right-radius: 40px ;
-    text-align: center;
+.footer {
+  margin: auto;
+  margin-top: 2rem;
+  background-color: var(--primary-color);
+  padding: 2rem;
+  color: white;
+  border-top-right-radius: 40px;
+  text-align: center;
 }
 
-.footer-heading{
-    text-align: center;
-    font-weight: bold;
+.footer-heading {
+  text-align: center;
+  font-weight: bold;
 }
 
-
-.ul{
-    padding-inline-start: 0px;
+.ul {
+  padding-inline-start: 0px;
 }
 
-.footer-links-icon{
-    width: 20px;
-    padding: 0rem, 2rem;
+.footer-links-icon {
+  width: 20px;
+  padding: 0rem, 2rem;
 }
 
-
+.pdf-container {
+  width: 100vw;
+  height: 100vh;
+}
 
 @media (max-width: 900px) {
-    body {
-      max-width: 95%;
-    }
-  
-    .list-item-inline {
-      display: inline;
-      padding: 0rem;
-    }
-  
-    .container-center {
-      width: auto;
-    }
-
-    .footer-links-icon{
-        width: 15px;
-    }
-
+  body {
+    max-width: 95%;
   }
+
+  .list-item-inline {
+    display: inline;
+    padding: 0rem;
+  }
+
+  .container-center {
+    width: auto;
+  }
+
+  .footer-links-icon {
+    width: 15px;
+  }
+}
